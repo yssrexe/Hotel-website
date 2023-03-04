@@ -157,14 +157,15 @@ section{
 .swiper-button-prev{
     height: 5rem;
     width: 5rem;
-    line-height: 5rem;
-    background: var(--white);
+    background: transparent;
     color: var(--black);
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover{
-    background: var(--primary);
+    background: transparent;
+    width: 60px;
+    font-size: 60px;
     color: var(--white);
 }
 
